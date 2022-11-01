@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String[] args) {
+        int year = 2006;
+        boolean Year = year >= 2015;
+        char pril = 'I';
+        if (Year && pril == 'I') {
+            System.out.println("Установите для IOS");
+        }
+        if (Year && pril == 'A') {
+            System.out.println("Установите для Android");
+        }
+        if (Year != true && pril == 'I') {
+            System.out.println("Установите для IOS 2015 года");
+        }
+        if (Year != true && pril == 'A') {
+            System.out.println("Установите для Android 2015 года");
+        }
+    }
+    }

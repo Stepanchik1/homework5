@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+ char pril = 'S';
+ if (pril=='I') {
+     System.out.println("Versia IOS");}
+ else if (pril=='A') {
+     System.out.println("Versia Android");
+ } else {
+     System.out.println("None undestooded");}
+
+
+
+    }
+}

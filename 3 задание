@@ -1,0 +1,34 @@
+public class Main {
+    public static void main(String[] args) {
+int y = -295;
+int b = -y+1;
+boolean d4 = y%4==0;
+boolean b100 = y>=100;
+boolean b400 = y>=400;
+boolean m0 = y<0;
+boolean d100 = y%100==0;
+boolean d400 = y%400==0;
+        boolean d4b = b%4==0;
+        boolean b100b = b>=100;
+        boolean b400b = b>=400;
+        boolean d100b = b%100==0;
+        boolean d400b = b%400==0;
+if (y==0) {
+    System.out.println("нулевой год не существует");}
+else {
+    if (m0!=true) {
+    if ((d4 && b100 == false) || (d4 && b100 && b400 == false && d100 == false) || (d4 && b400 && d400)) {
+        System.out.println("Высокосный год");
+    } else {
+        System.out.println("Невысокосный год");}}
+    else {
+        if ((d4b && b100b == false) || (d4b && b100b && b400b == false&& d100b == false) || (d4b && b400b && d400b)) {
+            System.out.println("Высокосный год");
+        } else {
+            System.out.println("Невысокосный год");
+        }
+        }
+
+}
+    }
+    }

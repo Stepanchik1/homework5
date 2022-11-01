@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+int p= 101;
+if (p<0) {
+    System.out.println("Некорректно задано расстояние");}
+else {
+    if (p <= 20) {
+        System.out.println("Потребуются 1 сутки");
+    } else {
+        System.out.println("Потребуется " + (2+((p-1) - 20) / 40) + " суток");
+    }
+}
+    }
+    }
